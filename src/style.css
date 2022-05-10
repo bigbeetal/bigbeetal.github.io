@@ -1,6 +1,7 @@
 body {
   background-image: url('../img/bg.png');
-
+  height: 100%;
+  width: 100%
 }
 .home {
     height: 600px;
@@ -30,7 +31,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-bloc;
+  display: inline-block;
       font-size: 45px;
 }
 
